@@ -1,0 +1,39 @@
+{
+  "name": "loadconda",
+  "version": "1.0.2",
+  "description": "Its wrapper for k6 to do stress, performance testing for the APIs.",
+  "main": "dist/bin/main.ts",
+  "bin": {
+    "loadconda": "dist/bin/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/bin/main.ts"
+  },
+  "keywords": [
+    "loadconda",
+    "k6",
+    "performance testing",
+    "API testing",
+    "stress testing",
+    "CLI",
+    "tool",
+    "javascript"
+  ],
+  "author": "Amal VS",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "child_process": "^1.0.2",
+    "commander": "^11.1.0",
+    "inquirer": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.7.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}

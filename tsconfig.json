@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",             
+      "rootDir": "./",                // Set root directory to project root
+      "module": "commonjs",          
+      "target": "es6",               
+      "strict": true,                
+      "esModuleInterop": true,       
+      "skipLibCheck": true,          
+      "forceConsistentCasingInFileNames": true 
+    },
+    "include": [
+      "bin/**/*",                    // Include all TypeScript files in the bin folder
+      "src/**/*"                     // Include all TypeScript files in the src folder
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

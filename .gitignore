@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*  # If you use multiple environment files
+
+# TypeScript
+*.tsbuildinfo
+
+# Dependency directories
+jspm_packages/
+
+# Other files to ignore
+*.tgz
+*.lock
+
+# Docker files (if you're using Docker)
+docker-compose.override.yml
+docker-compose.local.yml
+Dockerfile
+.dockerignore
+
+# Coverage
+coverage/
+*.lcov
+
+# Build artifacts
+build/

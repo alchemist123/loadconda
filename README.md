@@ -44,4 +44,4 @@ Author
 Created and maintained by Amal VS. Feel free to reach out for any questions or contributions.
 
 
-**Note:** Be sure to replace `https://github.com/your-repo/loadconda` with the actual link to your GitHub repository.
+**Note:** Be sure to replace `https://github.com/alchemist123/loadconda` with the actual link to your GitHub repository.

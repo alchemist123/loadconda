@@ -1,6 +1,6 @@
 import figlet from 'figlet';
 import chalk from 'chalk';
-const version = '1.0.2';
+const version = '1.0.3';
 
 export async function displayVersion(): Promise<void> {
   console.log(

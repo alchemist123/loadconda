@@ -1,6 +1,6 @@
 {
   "name": "loadconda",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Its wrapper for k6 to do stress, performance testing for the APIs.",
   "main": "dist/bin/main.ts",
   "bin": {
